@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Power AD Spy Application Automation Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="testng.metrics.report.name" value="Power_Automation_Report.html"/>
+  <parameter name="testng.metrics.report.logo" value="https://poweradspy.com/wp-content/uploads/2018/05/Untitled-design-3.png"/>
+  <parameter name="testng.metrics.report.appendTimestamp" value="True"/>
+  <listeners>
+    <listener class-name="com.power.qa.util.TestStatusListener"/>
+  </listeners>
+  <test thread-count="5" name="PowerAdSpy Application Test(failed)">
+    <classes>
+      <class name="com.power.testcases.Verify_Native_Dasboard_SortBy">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="verify_sortBy"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Native_Dasboard_SortBy -->
+      <class name="com.power.testcases.Verify_Instagram_Dasboard_SortBy">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+          <include name="verify_sortBy"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Instagram_Dasboard_SortBy -->
+      <class name="com.power.testcases.Verify_Youtube_Dasboard_PostDateBetween">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="verify_postdateBetween"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Youtube_Dasboard_PostDateBetween -->
+      <class name="com.power.testcases.Verify_Reddit_landerProperties_EcommercePlatform_TestScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="Verify_Reddit_landerProperties_EcommercePlatform_TestScript"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Reddit_landerProperties_EcommercePlatform_TestScript -->
+      <class name="com.power.testcases.Verify_Gdn_Post_Date_Between_TestScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+          <include name="Verify_Gdn_Post_Date_Between_TestScript"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Gdn_Post_Date_Between_TestScript -->
+      <class name="com.power.testcases.Verify_Reddit_Likes_TestCase">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="Verify_Reddit_Likes_TestCase"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Reddit_Likes_TestCase -->
+      <class name="com.power.testcases.Verify_Reddit_Post_Date_Between_TestScript">
+        <methods>
+          <include name="Verify_Reddit_Post_Date_Between_TestScript"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Reddit_Post_Date_Between_TestScript -->
+      <class name="com.power.testcases.Verify_Reddit_Domain_Registration_Date_TestScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="Reddit_Domain_Registration_Date_TestScript"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Reddit_Domain_Registration_Date_TestScript -->
+      <class name="com.power.testcases.Verify_Youtube_Dashboard_AddSeenBetween">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+          <include name="verify_adseenBetween"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Youtube_Dashboard_AddSeenBetween -->
+      <class name="com.power.testcases.Verify_Pinterest_Dasboard_AdSeenBetween">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="verify_postdateBetween"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Pinterest_Dasboard_AdSeenBetween -->
+      <class name="com.power.testcases.Verify_Reddit_filter_TestScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+          <include name="Verify_Reddit_filter_TestScript"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Reddit_filter_TestScript -->
+      <class name="com.power.testcases.Verify_Facebook_Ad_Seen_Between_TestScript">
+        <methods>
+          <include name="Facebook_Ad_Seen_Between_TestScript"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Facebook_Ad_Seen_Between_TestScript -->
+      <class name="com.power.testcases.Verify_Native_Dasboard_DomainRegistrationDate">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="verify_domainRegistrationDate"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Native_Dasboard_DomainRegistrationDate -->
+      <class name="com.power.testcases.Verify_FaceBook_landerProperties_EcommercePlatform_TestScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="Verify_FaceBook_landerProperties_EcommercePlatform_TestScript"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_FaceBook_landerProperties_EcommercePlatform_TestScript -->
+      <class name="com.power.testcases.Verify_Quora_Dasboard_DomainRegistrationDate">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="verify_domainRegistrationDate"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Quora_Dasboard_DomainRegistrationDate -->
+      <class name="com.power.testcases.Verify_Gdn_SortBy_TestScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="Verify_Gdn_SortBy_TestScript"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Gdn_SortBy_TestScript -->
+      <class name="com.power.testcases.Verify_Youtube_Dasboard_DomainRegistrationDate">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+          <include name="verify_domainRegistrationDate"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Youtube_Dasboard_DomainRegistrationDate -->
+      <class name="com.power.testcases.Verify_Native_LanderProperties_MarketingPlatform">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="verify_LanderProperties"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Native_LanderProperties_MarketingPlatform -->
+      <class name="com.power.testcases.Verify_Facebook_filter_language_TestScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="Verify_Facebook_filter_language_TestScript"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Facebook_filter_language_TestScript -->
+      <class name="com.power.testcases.Verify_Reddit_Ad_Seen_Between_TestScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+          <include name="Facebook_Ad_Seen_Between_TestScript"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Reddit_Ad_Seen_Between_TestScript -->
+      <class name="com.power.testcases.Verify_Native_filters_Language">
+        <methods>
+          <include name="verify_Country"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Native_filters_Language -->
+      <class name="com.power.testcases.Verify_Quora_Dasboard_SortBy">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="verify_sortBy"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Quora_Dasboard_SortBy -->
+      <class name="com.power.testcases.Verify_Quora_Dasboard_PostDateBetween">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="verify_postdateBetween"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Quora_Dasboard_PostDateBetween -->
+      <class name="com.power.testcases.Verify_Reddit_landerProperties_MarketingPlatform_TestScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="Verify_Reddit_landerProperties_MarketingPlatform_TestScript"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Reddit_landerProperties_MarketingPlatform_TestScript -->
+      <class name="com.power.testcases.Verify_Google_SortBy_TestScript">
+        <methods>
+          <include name="Verify_Google_SortBy_TestScript"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Google_SortBy_TestScript -->
+      <class name="com.power.testcases.Verify_Native_filters_Country">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+          <include name="verify_Country"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Native_filters_Country -->
+      <class name="com.power.testcases.Reddit_Ad_Seen_Between_CustomRange_TestScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="Reddit_Ad_Seen_Between_CustomRange_TestScript"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Reddit_Ad_Seen_Between_CustomRange_TestScript -->
+      <class name="com.power.testcases.Verify_Reddit_SortBy_TestScript">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="Verify_Reddit_SortBy_TestScript"/>
+          <include name="tearDown"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Reddit_SortBy_TestScript -->
+      <class name="com.power.testcases.Verify_Native_LanderProperties_EcommercePlatform">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="verify_LanderProperties"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.power.testcases.Verify_Native_LanderProperties_EcommercePlatform -->
+    </classes>
+  </test> <!-- PowerAdSpy Application Test(failed) -->
+</suite> <!-- Failed suite [Power AD Spy Application Automation Suite] -->
